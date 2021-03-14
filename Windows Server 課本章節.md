@@ -156,3 +156,72 @@ Hyper-V的虛擬交換器​
 Azure的基本管理​
 新增訂用帳戶​
 ```
+## 第 6 章 建立Active Directory網域​
+
+### 6-1 Active Directory網域服務​
+```
+Active Directory的適用範圍​
+名稱空間(Namespace)​
+物件(Object)與屬性(Attribute) ​
+容區(Container)與組織單位(OU) ​
+網域樹狀目錄(Domain Tree) ​
+信任(Trust) ​
+樹系(Forest) ​
+架構(Schema)​
+網域控制站(DC)​
+Lightweight Directory Access Protocol (LDAP) ​
+通用類別目錄(Global Catalog)​
+站台(Site) ​
+網域功能等級 ​
+樹系功能等級 ​
+樹系與網域功能等級的關係​
+目錄分割區(Directory Partition) ​
+```
+### 6-2 建立Active Directory網域 ​
+```
+建立網域的必要條件 ​
+建立網路中的第一台網域控制站 - 1​
+建立網路中的第一台網域控制站 - 2
+檢查DNS伺服器內的記錄是否完備​
+排除登記失敗的問題​
+建立更多的網域控制站​
+```
+### 6-3 將Windows電腦加入或脫離網域​
+```
+將Windows電腦加入網域 - 1 ​
+將Windows電腦加入網域 - 2
+將Windows電腦加入網域 - 3
+脫離網域​
+```
+### 6-4 管理Active Directory網域使用者帳戶​
+```
+其他成員電腦的Active Directory管理工具​
+建立組織單位(OU)與網域使用者帳戶​
+登入測試​
+Hyper-V加強的工作階段模式​
+賦予使用者在網域控制站登入的權利​
+原則套用後才有效​
+多台網域控制站的情況​
+群組原則的複製時機​
+資料異動的起始儲存地點​
+登入疑難排除​
+網域使用者個人資料的設定​
+限制登入時段​
+限制登入電腦​
+```
+### 6-5 管理Active Directory網域群組帳戶​
+```
+群組特性​
+網域群組的建立與管理 ​
+內建的網域本機群組​
+內建的全域群組與萬用群組​
+```
+### 6-6 提高網域與樹系功能等級​
+```
+AD LDS​
+```
+### 6-7 Active Directory資源回收筒​
+```
+**123**
+```
+### 6-8 移除網域控制站與網域​
