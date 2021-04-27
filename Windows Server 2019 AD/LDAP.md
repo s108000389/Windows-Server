@@ -8,13 +8,15 @@
 LDAP 資料結構的三層概念是：Schema、Object Class、Attribute Type，分別簡述如下：
 
 Schema
-  Object Class 的集合，透過集合相同性質的類別，描述現實中的個體的資訊
+    Object Class 的集合，透過集合相同性質的類別，描述現實中的個體的資訊
+    
 Object Class
-  Attribute Type 的集合，每種 Object Class 會定義有哪些必要、可選的 Attribute Type
-  Object Class 具有繼承的關係
+    Attribute Type 的集合，每種 Object Class 會定義有哪些必要、可選的 Attribute Type
+    Object Class 具有繼承的關係
+    
 Attribute Type
-  描述資料的內容
-  已鍵值（Key-Value）的方式表示
+    描述資料的內容
+    已鍵值（Key-Value）的方式表示
 ```
 ```
 https://blog.poychang.net/ldap-introduction/
